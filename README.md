@@ -4,9 +4,9 @@
 
 For source mean $s\geq0$, ON background mean $b\geq0$, and OFF/ON exposure ratio $\rho>0$:
 
-$$N\sim\operatorname{Poisson}(s+b),\qquad M\sim\operatorname{Poisson}(\rho b),\qquad N\perp M\mid(s,b,\rho).$$
+$$N\sim\mathrm{Poisson}(s+b),\qquad M\sim\mathrm{Poisson}(\rho b),\qquad N\perp M\mid(s,b,\rho).$$
 
-Library **0.1** returns normalized laws on nonnegative integer counts, plus the conditional estimate $\widehat b(s)$, profile log likelihood $\ell(s,\widehat b(s))$, and exact marginal under an explicit $b\sim\operatorname{Gamma}(a,r)$ prior (shape/rate).
+Library **0.1** returns normalized laws on nonnegative integer counts, plus the conditional estimate $\widehat b(s)$, profile log likelihood $\ell(s,\widehat b(s))$, and exact marginal under an explicit $b\sim\mathrm{Gamma}(a,r)$ prior (shape/rate).
 
 ```flatppl
 flatppl_compat = "0.1"
