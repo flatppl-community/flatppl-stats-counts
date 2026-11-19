@@ -70,9 +70,9 @@ positive root without subtracting nearly equal numbers:
 
 ```math
 \widehat b=\begin{cases}
-\max(n/c-s,0),&m=0,\\
-(A+D)/(2c),&m>0,\ A\geq0,\\
-2ms/(D-A),&m>0,\ A<0.
+\max(n/c-s,0),&m=0,
+\\ (A+D)/(2c),&m>0,\ A\geq0,
+\\ 2ms/(D-A),&m>0,\ A<0.
 \end{cases}
 ```
 
@@ -133,8 +133,8 @@ At $s=0$ only $k=n$ contributes. Its value and first signal derivative are
 
 ```math
 \left.\frac{\partial\log p}{\partial s}\right|_{s=0^+}
-=\begin{cases}-1,&n=0,\\
-n(1+\rho+r)/(n+m+a-1)-1,&n>0.
+=\begin{cases}-1,&n=0,
+\\ n(1+\rho+r)/(n+m+a-1)-1,&n>0.
 \end{cases}
 ```
 
